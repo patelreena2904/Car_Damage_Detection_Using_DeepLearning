@@ -1,1 +1,34 @@
 # Car_Damage_Detection_Using_DeepLearning
+
+Project Overview
+This project is an AI-based Car Damage Classification System built using PyTorch, ResNet50, Optuna, Streamlit, and FastAPI. It detects the type of car damage from an uploaded image.
+
+Dataset
+Images: 2300
+Class labels: "Front Breakage",'Front Crushed','Front Normal','Rear Breakage','Rear Crushed','Rear Normal'
+Features / Preprocessing
+✅ Deep Learning model (ResNet50 pretrained on ImageNet)
+
+✅ Fine-tuned last layers + hyperparameter tuning using Optuna
+
+✅ Image augmentations for better generalization
+
+✅ Streamlit Web App for easy image upload & prediction
+
+✅ FastAPI endpoint for programmatic inference
+
+✅ Supports 6 classes of car damage
+
+✅ Achieved ~80% accuracy
+
+Modeling
+Models: Base: ResNet50 (pretrained) Frozen: All layers except layer4
+Hyperparameter Tuning: Using Optuna, tuned:Learning rate (1e−5 to 1e−2) and Dropout rate (0.2 to 0.7)
+Streamlit App
+Built an interactive frontend using Streamlit
+
+it varies much from running it locally. Need further improvement.
+Installation
+Clone the repository:
+pip install -r requirements.txt
+streamlit run app.py
