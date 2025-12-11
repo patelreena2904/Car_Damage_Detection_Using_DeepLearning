@@ -23,7 +23,7 @@ Class labels: "Front Breakage",'Front Crushed','Front Normal','Rear Breakage','R
 ✅ Achieved ~80% accuracy
 
 ## Modeling
-Models: Base: ResNet50 (pretrained) Frozen: All layers except layer4
+Models: Base: ResNet50 (pretrained) Frozen: All layers except layer4 <br>
 Hyperparameter Tuning: Using Optuna, tuned:Learning rate (1e−5 to 1e−2) and Dropout rate (0.2 to 0.7)
 
 ## Streamlit App
