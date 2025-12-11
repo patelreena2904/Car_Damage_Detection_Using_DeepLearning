@@ -4,7 +4,7 @@
 This project is an AI-based Car Damage Classification System built using PyTorch, ResNet50, Optuna, Streamlit, and FastAPI. It detects the type of car damage from an uploaded image.
 
 ## Dataset
-Images: 2300
+Images: 2300 <br>
 Class labels: "Front Breakage",'Front Crushed','Front Normal','Rear Breakage','Rear Crushed','Rear Normal'
 
 ## Features / Preprocessing
