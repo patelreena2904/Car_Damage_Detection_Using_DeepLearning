@@ -27,10 +27,10 @@ Models: Base: ResNet50 (pretrained) Frozen: All layers except layer4 <br>
 Hyperparameter Tuning: Using Optuna, tuned:Learning rate (1e−5 to 1e−2) and Dropout rate (0.2 to 0.7)
 
 ## Streamlit App
-Built an interactive frontend using Streamlit
+Built an interactive frontend using Streamlit <br>
 it varies much from running it locally. Need further improvement.
 
 ## Installation
-Clone the repository:
-pip install -r requirements.txt
+Clone the repository: <br>
+pip install -r requirements.txt <br>
 streamlit run app.py
